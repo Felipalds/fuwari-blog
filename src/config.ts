@@ -44,7 +44,7 @@ export const navBarConfig: NavBarConfig = {
 };
 
 export const profileConfig: ProfileConfig = {
-  avatar: "assets/images/myimage.jpeg", // Relative to the /src directory. Relative to the /public directory if it starts with '/'
+  avatar: "assets/images/go.png", // Relative to the /src directory. Relative to the /public directory if it starts with '/'
   name: "Luiz Rosa",
   bio: "Middle-level software engineer. Java, Golang and Next.js",
   links: [
