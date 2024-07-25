@@ -1,7 +1,7 @@
 ---
-title: Hands-on: Building a Secure TCP-Based Chat Group with Golang
+title: "Hands-on: Building a Secure TCP-Based Chat Group with Golang"
 published: 2024-07-25
-description: Building a TCP-only chat group may be hard. Let's decompliate the process and build a secure chat group with Golang.
+description: "Building a TCP-only chat group may be hard. Let's decompliate the process and build a secure chat group with Golang."
 tags: [Golang, WebDev, Backend]
 image: "./go.png"
 category: Golang
