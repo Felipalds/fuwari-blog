@@ -3,7 +3,7 @@ title: Golang TCP server
 published: 2023-10-01
 description: A TCP server with Golang. Pure and simple.
 tags: [Golang, WebDev, Backend]
-image: "/src/assets/images/go.png"
+image: "assets/images/go.png"
 category: Golang
 draft: false
 ---
