@@ -24,6 +24,7 @@ if (isLocal) {
     const files = import.meta.glob<ImageMetadata>("../../**", { import: 'default' });
     let normalizedPath = path.normalize(path.join("../../", basePath, src)).replace(/\\/g, "/");
     img = await (files[normalizedPath])();
+    console.log(img)
     if (!img) {
         console.error(`No image found for path ${normalizedPath}`);
     }
@@ -37,4 +38,3 @@ const imageStyle = `object-position: ${position}`
     {isLocal && img && <Image src={img} alt={alt || ""} class={imageClass} style={imageStyle}/>}
     {!isLocal && <img src={isPublic ? url(src) : src} alt={alt || ""} class={imageClass} style={imageStyle}/>}
 </div>
-

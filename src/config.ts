@@ -16,7 +16,7 @@ export const siteConfig: SiteConfig = {
   },
   banner: {
     enable: true,
-    src: "./assets/images/Rei_Learning_Go.png", // Relative to the /src directory. Relative to the /public directory if it starts with '/'
+    src: "assets/images/banner.jpg", // Relative to the /src directory. Relative to the /public directory if it starts with '/'
     position: "center", // Equivalent to object-position, defaults center
   },
   favicon: [
@@ -44,7 +44,7 @@ export const navBarConfig: NavBarConfig = {
 };
 
 export const profileConfig: ProfileConfig = {
-  avatar: "assets/images/go.png", // Relative to the /src directory. Relative to the /public directory if it starts with '/'
+  avatar: "assets/images/Rei_Learning_Go.png", // Relative to the /src directory. Relative to the /public directory if it starts with '/'
   name: "Luiz Rosa",
   bio: "Middle-level software engineer. Java, Golang and Next.js",
   links: [
