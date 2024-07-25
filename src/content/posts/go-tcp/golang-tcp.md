@@ -1,14 +1,17 @@
 ---
-title: Golang TCP server
-published: 2023-10-01
-description: A TCP server with Golang. Pure and simple.
+title: Hands-on: Building a Secure TCP-Based Chat Group with Golang
+published: 2024-07-25
+description: Building a TCP-only chat group may be hard. Let's decompliate the process and build a secure chat group with Golang.
 tags: [Golang, WebDev, Backend]
 image: "./go.png"
 category: Golang
 draft: false
 ---
 
-# Golang TCP server from scratch
+# Hands-on: Building a Secure TCP-Based Chat Group with Golang
+
+You can check the repos right here:
+
 
 Paragraphs are separated by a blank line.
 
